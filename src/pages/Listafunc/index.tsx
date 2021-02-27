@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 import PageHeader from '../components/PageHeader';
 
 import './styles.css';
@@ -10,9 +10,13 @@ function Listafunc () {
             <div id = "page-func-list" className = "container">
                 <PageHeader title = " GERENCIAMENTO ">
                 <form id = "search-func">
-                <button>Cadastrar Local</button>
+                <button className="btn-geral">
+                <Link to="local" className="btn-geral" >Cadastrar Local</Link>
+                </button>
                 <button>Relatórios</button>
-                <button>Cadastrar Questionário</button>
+                <button>
+                   <Link to="quest" className="btn-geral" >Cadastrar Questionario</Link>
+                </button>
                 </form>
                 </PageHeader>
                 <main>

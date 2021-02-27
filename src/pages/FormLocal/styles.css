@@ -3,6 +3,11 @@
     width: 100vw;
     height: 100vh;
 }
+.map {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+}
 
 #page-func-form .page-header .header-content {
 
@@ -132,7 +137,7 @@
     }
 
     #page-func-form main fieldset legend {
-    
+
         align-items: center;
         justify-content: center;
         height: 10rem;

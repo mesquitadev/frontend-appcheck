@@ -12,16 +12,16 @@ function Landing () {
                     <h2>Plataforma de Gerenciamento.</h2></div>
 
                 <div className = "buttons-container">
-                    <Link to = "Adm" className = "Adm"> 
+                    <Link to = "Adm" className = "Adm">
                     <img src = {admI} alt= "adm" />
                     ADMINISTRAÇÃO </Link>
 
-                    <Link to = "Func" className = "Func"> 
+                    <Link to = "Func" className = "Func">
                     <img src = {funcI} alt= "func" />
                     FUNCIONÁRIO </Link>
 
                 </div>
-                <span className = "bembrasil"> Rede Bem Brasil  2021@</span>
+                <span className = "bembrasil"> Rede Bem Brasil @ 2021</span>
 
             </div>
         </div>

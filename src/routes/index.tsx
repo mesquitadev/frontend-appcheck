@@ -15,10 +15,10 @@ const Routes: React.FC = () => (
   <Switch>
     <Route path="/" exact component={SignIn} />
     <Route path= '/Adm' component = {Listafunc} isPrivate/>
-        <Route path= '/Func' component = {Formfunc} isPrivate/>
-        <Route path= '/local' component = {FormLocal} isPrivate/>
-        <Route path= '/quest' component = {FormQuest} isPrivate/>
-        <Route path= '/login' component = {Formlogin} isPrivate/>
+    <Route path= '/Func' component = {Formfunc} isPrivate/>
+    <Route path= '/local' component = {FormLocal} isPrivate/>
+    <Route path= '/quest' component = {FormQuest} isPrivate/>
+    <Route path= '/login' component = {Formlogin} isPrivate/>
     <Route path="/dashboard" component={Landing} isPrivate />
   </Switch>
 );
